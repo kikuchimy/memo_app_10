@@ -14,5 +14,8 @@
             <li><a href="/memos/{{ $memo->id }}">{{ $memo->title }}</a></li>
         @endforeach
     </ul>
+
+    <!-- 新規登録画面へジャンプする -->
+    <button onclick="location.href='/memos/create'">登録する</button>
 </body>
 </html>
